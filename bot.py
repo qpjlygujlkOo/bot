@@ -2,14 +2,6 @@ import telebot
 import config
 import time
 
-updates = bot.getUpdates()
-
-if updates:
-    last_update_id = updates[-1]['update_id']
-    bot.getUpdates(offset=last_update_id+1)
-
-bot.notifyOnMessage()
-
 qa1 = ('@SmirnovIvan, @VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @DmitryMatlah')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @impavel, @barysh_vn, @DmitryChernoyarov')
