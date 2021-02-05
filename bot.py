@@ -1,9 +1,7 @@
 import telebot
 import config
 import time
-import os
 
-port = int(os.environ.get(“PORT”, 5000))
 qa1 = ('@SmirnovIvan, @VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @DmitryMatlah')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @impavel, @barysh_vn, @DmitryChernoyarov')
