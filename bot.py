@@ -2,12 +2,13 @@ import telebot
 import config
 import time
 
+bot = telebot.TeleBot(config.TOKEN)
+
 qa1 = ('@SmirnovIvan, @VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @DmitryMatlah')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @impavel, @barysh_vn, @DmitryChernoyarov')
 front1 = ('@Frozenzxc, @mimoniskr, @Spartfin, @chimir')
 pm1 = ('@gashimovak, @Becky_Bones, @daria_abramova')
-bot = telebot.TeleBot(config.TOKEN)
 
 @bot.message_handler(commands=['qa'])
  
