@@ -1,7 +1,13 @@
 import telebot
 import config
 import time
+import os
 
+def main():
+    # ...
+    port = os.getenv('PORT', default=8000)
+    updater.start_webhook(port=port)
+    
 bot = telebot.TeleBot(config.TOKEN)
 
 qa1 = ('@SmirnovIvan, @VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
