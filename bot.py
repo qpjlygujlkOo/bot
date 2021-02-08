@@ -46,7 +46,7 @@ def mgr(message):
 def all(message):
     bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
 
-@bot.message_handler(commands=['митинг'])
+@bot.message_handler(commands=['meet'])
  
 def meetup(message):
     sti = open('stick\\sticker.webp', 'rb')
