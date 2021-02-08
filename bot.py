@@ -49,7 +49,7 @@ def all(message):
 @bot.message_handler(commands=['meet'])
  
 def meetup(message):
-    sti = open('stick\\sticker.webp', 'rb')
+    sti = open('stick/sticker.webp', 'rb')
 
     bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
     time.sleep(2)
