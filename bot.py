@@ -55,28 +55,4 @@ def meetup(message):
     time.sleep(2)
     bot.send_sticker(message.chat.id, sti)
 
-
-@bot.message_handler(content_types=['text'])
-def handle_text(message):
-
-# Если пользователь отправил "привет, как тебя зовут?" отвечаем "робот я"
-if message.text == 'на обед':
-   bot.send_message(message.from_user.id, 'приятного!'
-
-# Если пользователь отправил "и чо?" отвечаем "да ничо"
-elif message.text == "кушоц":
-   bot.send_message(message.from_user.id, 'приятного!'
-
-elif message.text == "кушоц":
-   bot.send_message(message.from_user.id, 'приятного!'
-
-elif message.text == "кушать":
-   bot.send_message(message.from_user.id, 'приятного!'
-
-elif message.text == "кушац":
-   bot.send_message(message.from_user.id, 'приятного!'
-   
-elif message.text == "и я на обед":
-   bot.send_message(message.from_user.id, 'приятного!'
-
 bot.polling(none_stop=True)
