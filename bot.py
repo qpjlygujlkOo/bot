@@ -54,4 +54,11 @@ def meetup(message):
     bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
     time.sleep(2)
     bot.send_sticker(message.chat.id, sti)
+
+@bot.message_handler(content_types=['text'])
+
+def get_text_messages(message):
+    if message.text() == 'на обед', 'кушоц', 'кушать', 'кушац', 'ушел на обед', 'отобедаю', 'тоже на обед':
+        bot.reply_to(message.from_user.id, 'Приятного, {message.from_user.first_name}')
+
 bot.polling(none_stop=True)
