@@ -10,7 +10,7 @@ def main():
     
 bot = telebot.TeleBot(config.TOKEN)
 
-qa1 = ('@SmirnovIvan, @VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
+qa1 = ('@VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @DmitryMatlah')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @impavel, @barysh_vn, @DmitryChernoyarov')
 front1 = ('@Frozenzxc, @mimoniskr, @Spartfin, @chimir')
