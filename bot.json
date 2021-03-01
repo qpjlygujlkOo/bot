@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "polar-ring-306311",
+  "private_key_id": "ae436afdc984bfddc2e1d00d2352b218cc7cb493",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwKFPWkYs5zfuZ\n121dNawP6k6JQvGtOcOdK8McJ9nwJICvz2ofudJR0nWln0kYDCqMlLyWXq1lLbby\nyqjHYkhu1RsGpOTmolMH72dbkL3orTgc1lpWLxwg/M5ga7Zymy2xGFQ9bwPPUZZI\nBvxgiS/SICkiiNGUjE6O+DzTILADdcWh2TLTa9Czt8ZOhJYvG+lz3RH3eQRVzemn\ny1JuvphOdzj6ubHdn0eE9BXe8QrcjiswLO7pakfnQWpCauoZDPQk7tP+LTofeM+h\nLicv/2c8hhvU+z2tV/91v1DPjyMSQrVL2GIwN4rSieGyjdFVISlqn/shUbiL+uYi\n0JaGAUJXAgMBAAECggEABwVUchTS67bd9D+1yCU/elLoVmgoobLPrQ/1csXT1dJe\nnqMxo5oQW9p7feJfU2oIuBmleojDeGjeBcc1+txb7q7nqNghl1+Y15QfFnMqXn+o\n4N1aNF0kTdxFjWo9l0vAAnLpyJkIGdcymiRNIrvVABbwDMRPNhBxgRk7s152JW0X\nOWmIadvTCjuMB+9dC5nXdtUdizUwMGHgyL+NCJwKCRChXzQCxbBl2UOyDFxMPnnR\nFGZ/qkkTtzrV4GAakN+5xNiI9dTbsne+BycVwHSdXE+idZagtemuKDRQc+OBttsJ\nAFj4Qdc6PmPBQMdV3V6/DVXSKoYJKh5v3EL9xho8gQKBgQDnuYyFn1VyO/93HCKo\nnwwvK1QT1zmeiqlbLWsoApGmG9F/EquBOTNpR/nGEChYxmVOscBDgSsw30Ih/4iw\nmnTaxjlp/nfG12yAtNmAZIb+4cqA2Wp2KaqPmnPzH9tUjV4suY/9WH9pHfm/16gj\nhPMoBCUaCfxQ1QLk0wdeJ84f8QKBgQDCnI/tjp/ixkQLbNr4pCoV9DC/XlBQeDhv\npEpt1k/4XLnfju11FQRqbKeoy2rwimR+lGt8rZBv/laZGSI694JHLqeECIwi+t8s\n7J0W9lzJfSJwhdkUsU+7uh8AXJg1AE+S0yrukGtIwCDULfOIgCTyfrNhpTsrU240\ny8g8krtOxwKBgQCHjhHYMSdJFjQRt5HG1pPIHC6pFKSOTEtaHS2sUCRn6aoaDg/q\nHk4m7oX9CYKwvA6ThIQWeT+M7W3Aeb26ogBt4ru/d68V0PuWJzV9WFFoVSmjSoxu\n51zxeMcPmLkzsyc+Pqcu61BNa82oHj4r2SBtbk9N9j12A8YXmiObPunj4QKBgFvB\n3cqwGIqf2K1aYdQh8wXu4J0aJtwKEvHwkHdBOOttLOZPSX6OrkpPeK2JW56WYdOc\nvyFF5Hgpf0MoKo+K644MXUdPkGNdzaQs29RbzFvj+Dz9nuC2yVVF6CAPiGRVBS/B\nCNj6ltryW4gvMkgFw2Xif0lm0oMXDzstaffFZzM5AoGAJfAfQ+vMfzh875nk6sTz\nuwXH9m3Tp9CqrO2x0xv50ya3uzna1cB27Ma6YLDFMyfCQOIwp2q084XCa0q7kU84\nLtzwDqQujLMoFlZpcfteSQEZyctn32dLC2sS2RzYFKG/3V0QDJCky63uc4Cd5UVb\nJ8p0CZQT5plOIJvGo/StSeQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-513@polar-ring-306311.iam.gserviceaccount.com",
+  "client_id": "109224863179336713716",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-513%40polar-ring-306311.iam.gserviceaccount.com"
+}
