@@ -12,6 +12,7 @@ bot = telebot.TeleBot(config.TOKEN)
 
 qa1 = ('@VIKACHU1337, @Konstantin_Gladun, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @DmitryMatlah')
+tlqa = ('@gryzb1')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @impavel, @barysh_vn, @DmitryChernoyarov')
 front1 = ('@Frozenzxc, @Spartfin, @chimir')
 pm1 = ('@gashimovak, @Becky_Bones, @daria_abramova')
@@ -68,7 +69,7 @@ def mgr(message):
 @bot.message_handler(commands=['all'])
  
 def all(message):
-    bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
+    bot.send_message(message.chat.id,'ТОВАРИЩИ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + tlqa + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
 
 @bot.message_handler(commands=['meet'])
  
