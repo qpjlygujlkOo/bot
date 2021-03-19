@@ -76,7 +76,7 @@ def all(message):
 def meetup(message):
     sti = open('stick/sticker.webp', 'rb')
 
-    bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1.format(message.from_user, bot.get_me()),parse_mode='html')
+    bot.send_message(message.chat.id,'МИТИНГ! \n' + qa1 + ' ' + tl1 + ' ' + front1 + ' ' + back1 + ' ' + pm1, '\n', 'https://meet.google.com/bxq-nsek-ept'.format(message.from_user, bot.get_me()),parse_mode='html')
     time.sleep(2)
     bot.send_sticker(message.chat.id, sti)
 @bot.message_handler(content_types=['text'])
