@@ -2,6 +2,7 @@ import telebot
 import config
 import time
 import os
+import re
 
 def main():
     # ...
@@ -19,7 +20,7 @@ pm1 = ('@gashimovak, @Becky_Bones, @daria_abramova')
 dnr1 = "на обед"
 dnr2 = "кушать"
 dnr3 = "кушоц"
-dnr4 = "кушац"
+dnr4 = re.findall('кушац')
 dnr5 = "пойду поем"
 dnr6 = "ушел на обед"
 dnr7 = "ушел пообедать"
