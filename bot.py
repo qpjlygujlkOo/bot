@@ -11,7 +11,7 @@ def main():
     
 bot = telebot.TeleBot(config.TOKEN)
 
-dnr111 = re.findall(r'обедать')
+dnr111 = re.findall(r'обедать', message.text)
 qa1 = ('@MikFilippov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek, @esaulkovaav')
 tl1 = ('@ashutay, @mike_alexandrov')
 tlqa = ('@gryzb1')
