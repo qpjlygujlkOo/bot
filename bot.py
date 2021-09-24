@@ -11,9 +11,7 @@ def main():
     
 bot = telebot.TeleBot(config.TOKEN)
 
-string = "обедать"
-re.findall(string)
-dnr111 = re.findall(string)
+dnr111 = re.findall(r'обедать')
 qa1 = ('@MikFilippov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek, @esaulkovaav')
 tl1 = ('@ashutay, @mike_alexandrov')
 tlqa = ('@gryzb1')
@@ -87,7 +85,7 @@ def meetup(message):
 @bot.message_handler(content_types=['text'])
 
 def handle_text(message):
-    if re.findall(r'кушоц', message.text) or message.text.casefold() == dnr1 or message.text.casefold() == dnr2 or message.text.casefold() == dnr3 or message.text.casefold() == dnr4 or message.text.casefold() == dnr5 or message.text.casefold() == dnr6 or message.text.casefold() == dnr7 or message.text.casefold() == dnr8 or message.text.casefold() == dnr9 or message.text.casefold() == dnr10 or message.text.casefold() == dnr11 or message.text.casefold() == dnr12 or message.text.casefold() == dnr13 or message.text.casefold() == dnr14 or message.text.casefold() == dnr15 or message.text.casefold() == dnr16 or message.text.casefold() == dnr17 or message.text.casefold() == dnr18 or message.text.casefold() == dnr19 or message.text.casefold() == dnr20 or message.text.casefold() == dnr21:
+    if re.findall(r'кушоц', message.text) or message.text.casefold() == dnr111 or message.text.casefold() == dnr1 or message.text.casefold() == dnr2 or message.text.casefold() == dnr3 or message.text.casefold() == dnr4 or message.text.casefold() == dnr5 or message.text.casefold() == dnr6 or message.text.casefold() == dnr7 or message.text.casefold() == dnr8 or message.text.casefold() == dnr9 or message.text.casefold() == dnr10 or message.text.casefold() == dnr11 or message.text.casefold() == dnr12 or message.text.casefold() == dnr13 or message.text.casefold() == dnr14 or message.text.casefold() == dnr15 or message.text.casefold() == dnr16 or message.text.casefold() == dnr17 or message.text.casefold() == dnr18 or message.text.casefold() == dnr19 or message.text.casefold() == dnr20 or message.text.casefold() == dnr21:
         bot.send_message(message.chat.id, f'Приятного аппетита, {message.from_user.first_name}!')
     
 @bot.message_handler(content_types=["sticker"])
