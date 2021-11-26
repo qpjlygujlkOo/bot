@@ -88,7 +88,8 @@ def handle_text(message):
     
 @bot.message_handler(content_types=["sticker"])
 
-def pic(message):
-    bot.send_message(message.chat.id, f'Приятного аппетита, {message.from_user.first_name}, {message.file_unique_id}!')
+def handle_docs_audio(message):
+    if message.file:
+        bot.send_message(message.chat.id, f'Приятного аппетита, {message.from_user.first_name}!')
 
 bot.polling(none_stop=True)
