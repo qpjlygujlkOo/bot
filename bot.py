@@ -89,7 +89,7 @@ def handle_text(message):
 @bot.message_handler(content_types=["sticker"])
 
 def handle_docs_audio(message):
-    if message.sticker.file_unique_id == dnrstc1 or message.sticker.file_unique_id == dnrstc2:
+    if message.text.casefold() == dnr1:
         bot.send_message(message.chat.id, f'Приятного аппетита, {message.from_user.first_name}, {message.file_unique_id}!')
 
 bot.polling(none_stop=True)
