@@ -10,12 +10,12 @@ def main():
     
 bot = telebot.TeleBot(config.TOKEN)
 
-qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek, @danylermol')
+qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek, @burenko_d')
 tl1 = ('@ashutay, @mike_alexandrov')
 tlqa = ('@gryzb1')
 back1 = ('@ivleonov, @tshloman, @mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98')
 front1 = ('@Frozenzxc, @chimir, @Danil_Abr')
-pm1 = ('@gashimovak, @Becky_Bones, @daria_abramova')
+pm1 = ('@gashimovak, @Becky_Bones, @dkuruch, @OlgaShtefanko')
 dnr1 = "на обед"
 dnr2 = "кушать"
 dnr3 = "кушоц"
@@ -40,6 +40,7 @@ dnr21 = "пора покушать"
 
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
+
 
 @bot.message_handler(commands=['qa'])
  
