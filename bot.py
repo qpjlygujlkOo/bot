@@ -2,6 +2,11 @@ import telebot
 import config
 import time
 import os
+import random
+
+f = open('dict.txt', 'r', encoding='utf-8')
+list = f.read().split('\n')
+dict = tuple(list)
 
 def main():
     # ...
@@ -85,7 +90,8 @@ def meetup(message):
 
 def handle_text(message):
     if message.text.casefold() == dnr1 or message.text.casefold() == dnr2 or message.text.casefold() == dnr3 or message.text.casefold() == dnr4 or message.text.casefold() == dnr5 or message.text.casefold() == dnr6 or message.text.casefold() == dnr7 or message.text.casefold() == dnr8 or message.text.casefold() == dnr9 or message.text.casefold() == dnr10 or message.text.casefold() == dnr11 or message.text.casefold() == dnr12 or message.text.casefold() == dnr13 or message.text.casefold() == dnr14 or message.text.casefold() == dnr15 or message.text.casefold() == dnr16 or message.text.casefold() == dnr17 or message.text.casefold() == dnr18 or message.text.casefold() == dnr19 or message.text.casefold() == dnr20 or message.text.casefold() == dnr21:
-        bot.send_message(message.chat.id, f'Приятного аппетита, {message.from_user.first_name}!')
+        bon = random.choice(dict)
+        bot.send_message(message.chat.id, f'{bon}, {message.from_user.first_name}!')
     
 #@bot.message_handler(content_types=["sticker"])
 
