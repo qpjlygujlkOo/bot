@@ -16,9 +16,9 @@ def main():
 bot = telebot.TeleBot(config.TOKEN)
 
 qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek, @kalyamina')
-tl1 = ('@ashutay, @mike_alexandrov')
+tl1 = ('@ashutay, @ivleonov')
 tlqa = ('@gryzb1')
-back1 = ('@ivleonov, @paprozo, @mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98')
+back1 = ('@paprozo, @mmeiko, @barysh_vn, @DmitryChernoyarov, @MaximB98')
 front1 = ('@Frozenzxc, @chimir')
 pm1 = ('@gashimovak, @Becky_Bones, @OlgaShtefanko')
 dnr1 = "на обед"
