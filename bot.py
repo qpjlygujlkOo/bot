@@ -15,6 +15,7 @@ def main():
     
 bot = telebot.TeleBot(config1.TOKEN)
 
+key = ('TOKEN')
 qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @ivleonov')
 tlqa = ('@gryzb1')
@@ -50,6 +51,11 @@ kir1 = "Azamat_Gu"
 dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
 
+
+@bot.message_handler(commands=['key'])
+
+def key(message):
+    bot.send.message(message.chat.id, 'токен =' + (key('TOKEN')))
 
 @bot.message_handler(commands=['qa'])
  
