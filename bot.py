@@ -55,10 +55,10 @@ dnrstc1 = "AgADAgADA8KlDg"
 dnrstc2 = "AgADZgADqregFw"
 
 
-@bot.message_handler(commands=['key'])
+# @bot.message_handler(commands=['key'])
 
-def key(message):
-    bot.send.message(message.chat.id, 'токен' + key.format(message.from_user, bot.get_me()),parse_mode='html')
+# def key(message):
+#     bot.send.message(message.chat.id, 'токен' + key.format(message.from_user, bot.get_me()),parse_mode='html')
 
 @bot.message_handler(commands=['qa'])
  
