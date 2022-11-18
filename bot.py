@@ -1,5 +1,5 @@
 import telebot
-import config
+import config1
 import time
 import os
 import random
@@ -13,7 +13,7 @@ def main():
     port = os.getenv('PORT', default=8000)
     updater.start_webhook(port=port)
     
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(config1.TOKEN)
 
 qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @ivleonov')
