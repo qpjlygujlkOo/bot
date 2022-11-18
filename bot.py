@@ -4,7 +4,7 @@ import time
 import os
 import random
 
-TOKEN = os.environ['TOKEN']
+token = os.environ['TOKEN']
  
 f = open('dict.txt', 'r', encoding='utf-8')
 list = f.read().split('\n')
@@ -14,11 +14,11 @@ def main():
     # ...
     port = os.getenv('PORT', default=8000)
     updater.start_webhook(port=port)
-bot = telebot.TeleBot('TOKEN') 
+bot = telebot.TeleBot(token)
 
 # bot = telebot.TeleBot(config1.TOKEN)
 
-key = (TOKEN)
+key = (token)
 qa1 = ('@rasul_mamedov, @Lobanova_Olga, @Azamat_Gu, @Igor_Kirichek')
 tl1 = ('@ashutay, @ivleonov')
 tlqa = ('@gryzb1')
