@@ -4,7 +4,7 @@ import time
 import os
 import random
 
-token = os.environ['TOKEN1']
+token = os.getenv['TOKEN1']
  
 f = open('dict.txt', 'r', encoding='utf-8')
 list = f.read().split('\n')
