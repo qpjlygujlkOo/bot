@@ -4,4 +4,4 @@ meta:
     name: pip
 
 run:
-  scriptName: bot.py --port $PORT
+  scriptName: bot.py
