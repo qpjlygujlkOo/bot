@@ -11,4 +11,3 @@ RUN pip install -r /requirements.txt
 
 # Copy app source code.
 COPY src/ /app
-...
